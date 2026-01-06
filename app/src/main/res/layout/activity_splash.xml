@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/main_gradient">
+
+    <ImageView
+        android:id="@+id/global"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/tittletext"
+        android:layout_marginBottom="4dp"
+        android:src="@drawable/img_weather"
+        />
+
+    <TextView
+        android:id="@+id/tittletext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Apna Weather"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins_light"/>
+    <View
+        android:layout_width="210dp"
+        android:layout_height="2dp"
+        android:layout_below="@+id/tittletext"
+        android:layout_marginTop="8dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/white"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_below="@+id/tittletext"
+        android:layout_margin="44dp"
+        android:layout_marginTop="220dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="24dp"
+        app:cardBackgroundColor="#33FFFFFF"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="18dp"
+            android:text="Let's Start"
+            android:fontFamily="@font/poppins_light"
+            style="@style/TextAppearance.Material3.BodyLarge"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:gravity="center"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
