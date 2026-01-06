@@ -29,9 +29,9 @@ Apna Weather is a clean and simple Android application that provides real-time w
 ## 📸 App Screenshots
 
 <p align="center">
-  <img src="screenshots/home.png" width="250" />
-  <img src="screenshots/search.png" width="250" />
-  <img src="screenshots/details.png" width="250" />
+  <img src="screenshots/Splash.png" width="250" />
+  <img src="screenshots/Default.png" width="250" />
+  <img src="screenshots/Searched_city.png" width="250" />
 </p>
 
 ---
